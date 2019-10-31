@@ -309,6 +309,9 @@
     <ClCompile Include="precomp.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="scsTools.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="i386\aesasm.asm">

@@ -12,7 +12,6 @@
 #if defined(_MSC_VER)
 
     #include <windows.h>
-	#include <intrin.h>
 
     #define ATOMIC_OR32(_dest, _val)     InterlockedOr( (volatile LONG *)(_dest), (LONG)(_val) )
 
